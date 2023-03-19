@@ -13,7 +13,7 @@ namespace OpenAIIntegration
         static async Task Main(string[] args)
         {
             bool exitNow = false;
-            OpenAIAPI api = new OpenAIAPI(@"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");
+            OpenAIAPI api = new OpenAIAPI(@"<OPEN API KEY>");
             string response;
             var chat = api.Chat.CreateConversation();
             string readResponse;
